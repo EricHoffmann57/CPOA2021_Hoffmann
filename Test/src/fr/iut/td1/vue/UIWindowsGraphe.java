@@ -2,19 +2,17 @@ package fr.iut.td1.vue;
 
 import fr.iut.td1.interfaces.IObserver;
 import fr.iut.td1.miscs.Observable;
-		
 
-
-	public class UIGPhoneGraphe implements IObserver{
+public class UIWindowsGraphe implements IObserver{
        
 	private int num;
 	
-	private int getNum() {
+	public int getNum() {
 		return num;
 	}
 	
 	
-	public UIGPhoneGraphe(int num) {
+	public UIWindowsGraphe(int num) {
 	System.out.println("Je suis un écran Iphone");
 		this.num = num;
 	}

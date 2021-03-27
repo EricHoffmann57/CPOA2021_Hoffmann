@@ -5,6 +5,7 @@ import java.util.List;
 
 import fr.iut.td1.interfaces.IObserver;
 
+
 public class Observable {
 
 	//Bloc de variables
@@ -51,6 +52,5 @@ public class Observable {
 	public void addObserver(IObserver o) {
 		this.observers.add(o);
 	}
-	
 
 }
